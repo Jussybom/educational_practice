@@ -1,7 +1,7 @@
 pragma solidity ^0.8.17;
 // Jojo
 // Coco
-// Alise
+// Alisa
 contract Contact{
     
     string _name;
