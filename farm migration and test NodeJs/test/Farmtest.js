@@ -120,7 +120,7 @@ contract("Farmer", async(accounts) => {
         assert.equal(feed2, "Steve eats plant", "The farmer can feed dog with 'plant'");
     });
 
-    it("can call dog, horse responds correctly 'Woof'", async() => {
+    it("can call dog, dog responds correctly 'Woof'", async() => {
         const instance = await Farmer.deployed();
         const call = await instance.call(Dog.address);
         assert.equal(call, "Woof", "The farmer can call dog, dog responds correctly 'Woof'");
