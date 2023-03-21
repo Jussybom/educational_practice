@@ -3,22 +3,6 @@
 var poem_filename="./poem.txt"
 var year_filename="./year.txt"
 
-//console.log('Hello Node.js!');
-
-//fs.readFile('poem.txt', 'utf-8', (err, data) => {
-//if (err) throw err;
-//console.log(data);
-//});
-
-//fs.readFile('year.txt', 'utf-8', (err, data) => {
-//if (err) throw err;
-//console.log('2023 -', data);
-//});
-
-
-//Merlin Says:
-
-
 const fs = require('fs');
 
 console.log('Hello Node.js!');
